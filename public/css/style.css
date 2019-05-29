@@ -1,0 +1,55 @@
+:root {
+    --pramary: #092244;
+    --pramary-dark: #111b44;
+    --secondry: #d84314;
+    --secondry-dark: #01579b;
+    --success: #4caf50;
+    --error: coral;
+    --warning: coral;
+}
+/*a:hover {*/
+/*    color: var(--secondry) ;*/
+/*    background-color: transparent;*/
+/*}*/
+.main-menu.menu-light .navigation{
+    background: var(--pramary);
+}
+.main-menu.menu-light{
+    background: var(--pramary);
+}
+.alert-primary, .primary {
+    color: var(--secondry) !important;
+}
+.main-menu.menu-light .navigation > li > ul, .main-menu.menu-light ul.menu-popout{
+    background: var(--pramary);
+}
+.main-menu.menu-light .navigation > li.open > a, .main-menu.menu-light .navigation > li.sidebar-group-active > a{
+    background: var(--pramary);
+    color: #fff;
+}
+.main-menu.menu-light .navigation > li ul .active{
+background: linear-gradient(118deg, #d84314, #d84314);
+
+    -webkit-box-shadow: 0 0 1px 0px rgba(216, 67, 20, .7);
+    box-shadow: 0 0 1px 0px rgba(216, 67, 20, .7);
+}
+.main-menu.menu-light .navigation > li.active > a
+{
+    background: linear-gradient(118deg, #d84314, #d84314);
+    -webkit-box-shadow:0 0 1px 0px rgba(216, 67, 20, .7);
+    box-shadow: 0 0 1px 0px rgba(216, 67, 20, .7);
+}
+.main-menu .navbar-header .navbar-brand .brand-text{
+    color: var(--secondry) !important;
+}
+.main-menu.menu-light .navigation li a {
+    color: #fff;
+}
+.header-navbar .navbar-container ul.nav li.dropdown-user .dropdown-menu-right .dropdown-item:active, .header-navbar .navbar-container ul.nav li.dropdown-user .dropdown-menu-right .dropdown-item:hover{
+    background: var(--secondry) !important;
+    color: #FFF;
+}
+/*a {*/
+/*    color: var(--secondry) !important;*/
+/*    background-color: transparent;*/
+/*}*/
